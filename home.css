@@ -1,0 +1,658 @@
+*{
+     padding:0px;
+    margin:0px;
+    box-sizing:border-box; 
+}
+body{
+    background:linear-gradient(rgba(56,55,55),rgba(56,55,55));    
+}
+.display1{
+    display: none;
+   
+}.display6{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.icon0{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+.icon0 h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+#icon-menu{
+    color: white;
+    position: absolute;
+    left:0%;
+    top:9px;
+    font-size: 30px;
+    
+}
+
+.display3{
+color: white;
+background-color: rgb(56, 55, 55);
+display: none;
+width: 100%;
+
+
+}
+
+.display3 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.navbar{
+    background-color: rgb(56, 55, 55);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+   
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:30px;
+    list-style-type:none;
+}
+.navbar ul li h1{
+    font-size: 40px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.navbar ul li button{
+    padding:2px 25px;
+    background-color: rgb(250, 22, 60);
+    color: white;
+    cursor: pointer;
+} 
+.navbar hr{
+    margin-top:30px;
+}
+.image{
+    position: relative;
+}
+.image img{
+    width:100%;
+    height: 600px;
+    background-color: rgba(56, 55, 55, 0.7);
+    
+}
+.image .color-overlay { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 55, 55, 0.7); /* rgb(56, 55, 55) with opacity 0.7 */
+   
+    
+}
+.first{
+    margin-top: 110px;
+    
+}
+
+.heading{
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.caption{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top:55%;
+    left: 38%;
+}
+.first button{
+    padding: 5px 25px;
+   position: absolute;
+   top:70%;
+   left:45%;
+    color: white;
+    background-color: rgb(250, 22, 60);
+    cursor: pointer;
+   
+}
+.container{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    
+}
+.image1{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.image1 img {
+     position: absolute;
+    height: 90%;
+    width: 100%;
+    margin: 0;
+}
+ .about-us h1{
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 20px;
+}
+.about-us p{
+    color: white;
+    margin-left: 40px;
+    font-size:18px ;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: white;
+}
+.menu_photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    gap:20px;
+
+}
+
+
+.menu_photos img{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+}
+.menu_photos img:hover{
+    transform: scale(1.02);
+
+}
+
+.tableimage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+}
+.tableimage img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+ .layer{
+  
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 55, 55, 0.7);
+    z-index: 0;
+}
+.tableimage h1{
+   
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top:20%;
+    z-index: 1;
+    font-weight: bolder;
+
+}
+.tableimage input[type="text"]{
+   padding-right: 150px;
+   padding-left: 4px;
+   padding-top:10px;
+   padding-bottom: 10px;
+   font-size: 17px;
+    position: absolute;
+    top: 55%;
+    left:3%;
+    border: none;
+    z-index: 1;
+}
+.tableimage input[type="number"]{
+    
+    padding-left: 4px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+     position: absolute;
+     top: 55%;
+     left:37%;
+     border: none;
+
+}
+.tableimage input[type="date"]{
+    
+    padding-left: 4px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+     position: absolute;
+     top: 55%;
+     left:60%;
+     border: none;
+
+}
+.tableimage input[type="time"]{
+    
+    padding-left: 4px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+     position: absolute;
+     top:55%;
+     left:76%;
+     border: none;
+
+}
+.tableimage button{
+    
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top:55%;
+    left: 1130px;
+    cursor: pointer;
+    background-color: rgb(250, 22, 60);
+    color: white;
+    
+}
+.heading2{
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 20px;
+}
+.container1{
+   
+    height: 100%;
+    /* border: 2px solid white; */
+    padding: 20px;
+}
+.container1 .types{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.container1 .types .btn{
+    padding: 2px 40px;
+    font-size: 20px;
+    color: rgb(250, 22, 60);
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+.container1 .types .btn.active{
+    background-color: rgb(250, 22, 60);
+    color: white;
+}
+.container1 .content .content-type{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   display: none;
+  
+}
+.container1 .content .content-type.active{
+    display: inline-block;
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+}
+
+.container1 .content .content-type .content-matter{
+    border: 1px solid white;
+    height: 400px;
+    width: 330px;
+    margin-top: 50px;
+    color: white;
+    
+   
+}
+.content-type .content-matter img{
+    width:100%;
+    height:200px;
+}
+.content-type .content-matter span{
+   margin-left: 45%;
+    font-size: 30px;
+    background-color: rgb(250, 22, 60);
+}
+.content-type .content-matter h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.para{
+    margin-top:5%;
+}
+.heading3{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.Reviews .subdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    color: rgb(250, 22, 60);
+}
+.Reviews .shapes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Reviews .shapes .shapes1{
+    width:350px;
+    height: 110px;
+    border: 2px solid white;
+    margin-top: 30px;
+    color: white;
+   
+}
+.maps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+  }
+  
+  .api {
+    width: 100%;  
+    height: 500px;  
+    border: 1px solid #ccc;  
+    
+  }
+
+  .maps .adress{
+    margin-left:80px;
+    color: white;
+    margin-top: 150px;
+   
+  }
+  
+ .display2{
+    display: flex;
+    color: rgb(162, 175, 175);
+    align-items: center;
+    margin-top: 20px;
+   
+ }
+
+ @media (max-width:426px){
+    .navbar{
+        display: none;
+    }.display1{
+        display: block;
+
+    }
+    .image{
+        position: relative;
+    }
+    
+    .image img{
+        width:100%;
+        height:200px;
+        background-color: rgba(56, 55, 55, 0.7);
+        
+    }
+    .image .color-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(56, 55, 55, 0.7); /* rgb(56, 55, 55) with opacity 0.7 */
+       
+        
+    }.display5{
+        position: relative;
+        
+    }
+     .heading{
+        position: absolute;
+        left:20%;
+        top:25%;
+        font-size: 30px;
+
+    }
+    .caption{
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        left:24%;
+        top:43%;
+        
+
+    }
+    .container{
+        margin-top: 0;
+        padding: 0;
+    }
+    .first button{
+        position: absolute;
+        text-align: center;
+          left:38%;
+        top:60%;
+       padding-left:10px;
+       padding-right: 10px; 
+
+    }
+    .image1 img{
+        display: none;
+    }
+    .about-us p{
+        text-align: start;
+        font-size: 12px;
+        margin-left: 0;
+        margin-right: 15%;
+        
+    }
+    .menu_photos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items:center;
+    
+    }.menu_photos img{
+        width:120px;
+        height:120px;
+    }
+    .tableimage{
+        height:300px;
+        position: relative;
+    }
+    
+
+    .tableimage h1{
+   
+      font-size: 25px;
+      position: absolute;  
+      top:7%;
+      left:35%;
+     display: inline;
+
+    
+    }
+    .tableimage img{
+        width: 100%;
+        height: 100%;
+        
+        position: relative;
+        
+    }
+    .layer{
+       position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(56, 55, 55, 0.7);
+        z-index: 0;
+    }
+    .tableimage input[type="text"]{
+        padding: 0;
+        position: absolute;
+        top:30%;
+        left: 10%;
+        border: none;
+    }.tableimage input[type="date"]{
+        padding: 0;
+        position: absolute;
+        top:56%;
+        left: 10%;
+       
+
+    }
+    .tableimage input[type="time"]{
+        padding: 0;
+        position: absolute;
+       
+        top:69%;
+        left: 10%;
+
+    }
+    .tableimage input[type="number"]{
+        padding: 0;
+        font-size: 15px;
+        position: absolute;
+        
+        top:43%;
+        left: 10%;
+
+    }.tableimage button{
+        
+        position: absolute;
+        top:82%;
+        left: 10%;
+    }.container1{
+        width: 100%;
+    }
+    .container1 .types{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+    
+    }
+    .container1 .types .btn{
+        
+        font-size: 10px;
+        color: rgb(250, 22, 60);
+        background: none;
+        cursor: pointer;
+        border: none;
+    }.container1 .content .content-type .content-matter{
+        border: 1px solid white;
+        height: 220px;
+        width: 130px;
+        margin-top: 50px;
+        color: white;
+        
+       
+    }
+    .content-type .content-matter img{
+        width:100%;
+        height:35%;
+    }.content-type .content-matter span{
+        margin-left: 45%;
+         font-size: 10px;
+         background-color: rgb(250, 22, 60);
+     }.content-type .content-matter h1{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 12px;
+    }
+    .para{
+        margin-top:3%;
+        font-size: 10px;;
+    }
+    .heading3{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .Reviews .subdiv h1{
+        font-size: 12px;;
+    }.Reviews .subdiv p{
+        font-size: 10px;;
+    }
+
+    .Reviews .shapes .shapes1{
+        width:100px;
+        height: 130px;
+        border: 1px solid white;
+        margin-top: 7%;
+        color: white;
+        font-size: 10px;
+       
+    } .maps{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .maps .adress {
+        margin-top: 1%;
+        margin-left: 5%;
+
+    }
+    .maps .adress p {
+        margin-top: 4%;
+        font-size: 12px;
+
+    }
+    .maps .api{
+        width:80%;
+        height: 250px;
+        margin-left: 8%;;
+    }
+   
+
+   
+    
+    
+ }
